@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: nunito;
+}
+.backgrd img{
+  position: absolute;
+  border-radius:0 0 20px 20px;
+  width: 100%;
+  float: left;
+}
+.logo{
+  position: absolute;
+  left: 80%;
+  top: 45%;
+  height:5%;
+}
+h1{
+  position: absolute;
+  top: 44%;
+  left: 4%;
+  font-weight: 900;
+  font-size: 30px;
+}
+p{
+  width: 80%;
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  margin: 20px;
+  word-spacing: 1px;
+  font-weight:800;
+  letter-spacing: .5px;
+  font-size: 12px;
+}
+
+.start{
+  position: absolute;
+  width: 80px;
+  top: 90%;
+  left:65%;
+  border-radius: 5px;
+  padding: 8px;
+  font-family: nunito;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #6BA8A9;
+  border: none;
+  outline: none;
+}
+@media only screen and(min-width: 720px){
+  .backgrd img{
+    position: absolute;
+    border-radius:0 20px 20px 0;
+    width: 80%;
+    float: left;
+  }
+  .logo{
+    position: absolute;
+    left: 80%;
+    top: 45%;
+    height:5%;
+  }
+}
